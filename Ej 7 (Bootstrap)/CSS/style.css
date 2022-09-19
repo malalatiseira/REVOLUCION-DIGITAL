@@ -1,0 +1,31 @@
+
+.container, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.col {
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.conform
+{
+background-color:green;
+color: white;
+width: 500px
+
+
+}
+.sinform
+{
+background-color:rgb(237, 19, 19);
+color: white;
+width: 500px
+
+}
+
+.row {
+    background-color: #f5f5dc80;
+    width: 500px;
+    height: 100px;
+}

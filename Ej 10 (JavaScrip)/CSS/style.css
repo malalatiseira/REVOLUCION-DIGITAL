@@ -1,0 +1,20 @@
+
+.nav {
+background: rgb(180,251,63);
+background: radial-gradient(circle, rgba(180,251,63,1) 0%, rgba(63,250,251,1) 15%, rgba(88,130,217,1) 30%, rgba(128,82,180,1) 48%, rgba(185,77,150,1) 68%, rgba(252,70,70,1) 85%, rgba(252,235,70,1) 100%);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+font-size: 20px; 
+}
+
+body { 
+    align-content: center;
+    margin: 1px;
+    padding: 1px;
+}
+h1 {
+    background-color: yellow;
+    border-radius: 4%;
+    margin:1%;
+    padding: 5%;
+    text-align: center;
+}
