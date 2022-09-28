@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Ej 12(JavaScrip)/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Ej 12(JavaScrip)/script.js">
+</head>
+<body>
+    //promedio//
+    <script>
+        var n1, n2, n3,t , mayor;
+        n1 = parseInt (prompt("Ingrese un número"));
+        n2 = parseInt (prompt("Ingrese otro número"));
+        n3 = parseInt (prompt("Ingrese un número más"));
+ if (n1 > n2){
+    t = n1;
+ }
+
+ else{
+    t = n2;
+ }
+
+ if (t > n3) {
+    mayor = t;
+ }
+
+ else{
+    mayor = n3;
+ }
+
+
+document.write ("El número más grande es " + mayor);
+
+
+//4//
+txt1 = parseInt ( prompt ("Favor Ingrese el primer número:") );
+txt2 = parseInt ( prompt ("Favor Ingrese el primer número:") );
+var prod = 0;
+
+while ( txt2 != 0){
+    prod = prod + parseInt (txt1);
+    txt2 = txt2 - 1;
+}
+console.log ('El producto entre los dos números es:', prod);
+
+
+
+    </script>
+</body>
+</html>
